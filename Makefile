@@ -1,6 +1,13 @@
 CXXFLAGS=-std=c++11
 
-all: quickfind dijkstra2stack selectionsort insertionsort
+BINARIES=quickfind dijkstra2stack selectionsort insertionsort
+
+all: ${BINARIES}
+
+.PHONY: clean
+
+clean:
+	rm ${BINARIES}
 
 quickfind: quickfind.cpp
 
