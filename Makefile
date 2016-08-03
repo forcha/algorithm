@@ -1,6 +1,6 @@
-CXXFLAGS=-std=c++11
+CXXFLAGS=-std=c++11 -g
 
-BINARIES=quickfind dijkstra2stack selectionsort insertionsort
+BINARIES=quickfind dijkstra2stack selectionsort insertionsort quicksort
 
 all: ${BINARIES}
 
@@ -16,3 +16,5 @@ dijkstra2stack: dijkstra2stack.cpp
 selectionsort: selectionsort.cpp
 
 insertionsort: insertionsort.cpp
+
+quicksort: quicksort.cpp
