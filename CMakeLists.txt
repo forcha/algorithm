@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.5.2)
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+project (algorithms)
+add_executable(dijkstra2stack dijkstra2stack.cpp)
+add_executable(quickfind quickfind.cpp)
+add_executable(insertionsort insertionsort.cpp)
+add_executable(selectionsort selectionsort.cpp)
+add_executable(quicksort quicksort.cpp)
+
