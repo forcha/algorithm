@@ -7,4 +7,4 @@ add_executable(quickfind quickfind.cpp)
 add_executable(insertionsort insertionsort.cpp)
 add_executable(selectionsort selectionsort.cpp)
 add_executable(quicksort quicksort.cpp)
-
+add_executable(tail tail.cpp)
